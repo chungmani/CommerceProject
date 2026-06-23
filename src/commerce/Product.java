@@ -57,4 +57,12 @@ public class Product {
             this.stock = stock;
         }
     }
+
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }
